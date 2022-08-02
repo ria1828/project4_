@@ -1,0 +1,234 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.div1 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+.div2 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(5, 5, 160);
+  font-size: 28px;
+  font-weight: bolder;
+  padding-left: 100px;
+  padding-top: 20px;
+  position: absolute;
+}
+
+.div3 {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-right: 100px;
+  padding-top: 20px;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(70, 65, 65, 0.7);
+}
+a:hover {
+  color: rgb(29, 29, 151);
+  text-decoration: underline 4px red;
+  transition: 0.3s;
+}
+
+.div4 {
+  height: 600px;
+  width: 100%;
+
+  background-image: url("https://www.edx.org/static/ebde2a531bce94d2fc1ba075d1f19e57/learn_computer_programming.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 255, 0.3);
+  border: 1px solid green;
+}
+.div4:hover {
+  background-color: rgba(0, 0, 255, 0.4);
+  transition: 0.6s;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  color: yellow;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 150px;
+}
+.p2 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 40px;
+  text-shadow: -5px 5px 5px black;
+}
+button {
+  width: 150px;
+  border: 2.5px solid white;
+  border-radius: 10px;
+  background-color: yellow;
+  padding: 12px;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  font-size: 15px;
+  font-weight: bolder;
+  align-items: center;
+}
+button:active {
+  background-color: chartreuse;
+  color: antiquewhite;
+}
+button:hover {
+  background-color: rgba(248, 236, 8, 0.7);
+  transition: 0.6s;
+}
+.table1,
+td {
+  margin-top: 30px;
+  padding: 30px;
+  font-size: 20px;
+  color: rgb(16, 16, 124);
+}
+.img2 {
+  border-radius: 20px;
+  height: 500px;
+  width: 600px;
+}
+
+.p3 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 1px 5px 5px black;
+}
+
+.container ul li {
+  float: left;
+  padding-left: 30px;
+  color: rgb(77, 73, 73);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+b {
+  color: rgb(16, 16, 124);
+}
+.button2 {
+  display: block;
+  float: left;
+}
+.div5 {
+  height: 100px;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: rgb(42, 42, 168);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.p5 {
+  text-align: center;
+  color: rgb(16, 16, 124);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-shadow: 1px 5px 5px black;
+}
+.table2 {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.table2 td:hover {
+  border-collapse: collapse;
+  border: 2px solid gray;
+  box-shadow: 10px 10px 10px gray;
+  transition: 0.5s ease;
+}
+.p7,
+.p8,
+.p9 {
+  padding: 20px;
+  text-align: justify;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.div6 {
+  height: 400px;
+  width: 100%;
+  margin-top: 30px;
+  background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2Odoe?ver=fa49");
+  background-color: rgba(25, 0, 255, 0.6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  display: flex;
+}
+.p10 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 100px;
+  padding-left: 400px;
+  text-shadow: -5px 5px 5px black;
+}
+.div7 {
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+}
+
+.span2 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(5, 5, 160);
+  font-size: 20px;
+  font-weight: bolder;
+  padding-left: 60px;
+
+  position: absolute;
+}
+.div8 {
+  padding-top: 30px;
+  padding-left: 70px;
+  color: gray;
+}
+.div9 ul li {
+  padding-left: 300px;
+  float: left;
+}
+.div10 ul li {
+  padding-left: 300px;
+  float: left;
+}
+h4 {
+  color: rgb(5, 5, 160);
+  font-size: 17px;
+  text-align: center;
+  padding-left: 300px;
+}
